@@ -1,5 +1,7 @@
 import webbrowser
 class Movie(object):
+    """This class provides a way to store movie related information."""    #pre_existed class variable
+    VALID_RATINGS = ['G','PG','PG-13','R']   #class variable
 
     def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
         self.title = movie_title
